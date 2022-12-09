@@ -1,14 +1,7 @@
-function addFactory(valueToAdd) {
-    return function (value) {
-        return valueToAdd + value;
-    }
+console.log('salut !')
+
+function hello() {
+    console.log('Salut, je m\'appelle John.');
 }
 
-
-const fnAdd2 = addFactory(2);
-const fnAdd5 = addFactory(5);
-const fnAdd10 = addFactory(10);
-
-console.log(fnAdd2(3));
-console.log(fnAdd5(3));
-console.log(fnAdd10(3));
+hello();
